@@ -2,6 +2,10 @@
 User-dash is a web application that visualizes random data fetched from https://randomuser.me/.
 Visit the [preview page](https://user-dash.firebaseapp.com/) to interact with it and see how it works!
 
+# Technology Stack
+
+`AngularJS + Webpack + Node.js + MongoDB + Firebase + Heroku`
+
 # Main features
 
 1. Refresh every 10s, display the data in charts and store the fetched data into MongoDB
