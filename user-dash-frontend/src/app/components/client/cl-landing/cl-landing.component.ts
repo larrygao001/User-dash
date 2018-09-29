@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 import { NotificationService } from '../../../services/notification.service';
 import { cl_configs } from '../../../config/cl-config';
 
-import { environment } from '../../../../environments/environment';
+// import { environment } from '../../../../environments/environment';
 
 declare var jQuery: any;
 declare var $: any;

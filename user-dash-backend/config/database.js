@@ -1,4 +1,4 @@
 module.exports = {
-    database: 'mongodb://localhost:27017/rds',
+    database: 'mongodb+srv://userdash:userdash@cluster0-uc0al.mongodb.net/test?retryWrites=true',
     secret: 'yoursecret'
 }

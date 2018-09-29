@@ -1,19 +1,9 @@
+#main{
+    min-height: 80%;
+}
+
 .dropdown li a{
     cursor: pointer;
-}
-
-.feature-over-person .img-responsive {
-    width: 80px;
-    height: 80px;
-}
-
-#tong .img-responsive{
-    margin: auto;
-    margin-top: 30px;
-}
-
-.landingbg{
-    
 }
 
 .brief_introduce{
@@ -48,33 +38,6 @@
 
 .back-orange {
     background-color: #f26522 !important;
-}
-
-.news-list{
-    padding: 22px 0;
-    padding-top: 0;
-}
-.news-list ul li {
-    padding: 5px 0;
-}
-.news-date {
-    margin-right: 15px;
-    color: #a0a0a0;
-}
-.news-list a:hover{
-    color: #f26522;
-}
-
-.new_tag{
-    font-style: italic;
-    font-size: 0.7em;
-    font-weight: bold;
-    color: #FF0000;
-    display: inline-block;
-    padding-top: 3px;
-    padding-left: 5px;
-    vertical-align: top;
-    text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.3);
 }
 
 @media screen and (max-width: 768px) {

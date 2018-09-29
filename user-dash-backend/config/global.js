@@ -1,4 +1,3 @@
 module.exports = {
-
-    frontend_baseurl: 'http://localhost:4200'
+    frontend_baseurl: 'https://user-dash.herokuapp.com/'
 }

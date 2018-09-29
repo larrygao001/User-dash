@@ -17,7 +17,6 @@ module.exports.loadUsersByIndex = function(data, res) {
    });
 }
 
-
 module.exports.addUsers = function(newUsersData, res) {
 
    Users.addUsers(newUsersData, (err, results) => {
