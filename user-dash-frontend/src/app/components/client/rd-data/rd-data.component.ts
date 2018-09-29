@@ -5,8 +5,6 @@ import { Router } from '@angular/router';
 import { NotificationService } from '../../../services/notification.service';
 import { cl_configs } from '../../../config/cl-config';
 
-// import { environment } from '../../../../environments/environment';
-
 import { RDSService } from '../../../services/client/rds.service';
 
 import { Ng4LoadingSpinnerModule, Ng4LoadingSpinnerService, Ng4LoadingSpinnerComponent } from 'ng4-loading-spinner';
@@ -216,22 +214,22 @@ export class RDDataComponent implements OnInit {
     if(vf == 1) {
       this.rdsService.getChosenDatasLen().subscribe(data => {
         console.log('data len : ' + JSON.stringify(data));
-        if((data.data / 10) < 100) {
+        if((data.data/10 ) < 100) {
           this.rdsService.postChosenData(this.necessary_data).subscribe(data => {
-            alert("saved successfully");
+            alert("Data saved successfully");
             this.previous_data = this.necessary_data;
           }, err => {
             console.log(err);
           })
         } else {
-          alert("limited");
+          alert("Item limit reached");
         }
       }, err => {
         console.log(err);
       })
       
     } else {
-      alert('this data already saved.');
+      alert('Data already saved.');
     }
   }
 

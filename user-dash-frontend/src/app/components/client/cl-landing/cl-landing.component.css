@@ -6,6 +6,7 @@
     cursor: pointer;
 }
 
+
 .brief_introduce{
     font-size: 24px;
     text-align: center;
@@ -39,6 +40,7 @@
 .back-orange {
     background-color: #f26522 !important;
 }
+
 
 @media screen and (max-width: 768px) {
     .beginner-guide-btn {

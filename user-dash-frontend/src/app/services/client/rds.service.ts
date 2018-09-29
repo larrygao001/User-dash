@@ -3,9 +3,7 @@ import { Http, Headers, RequestOptions, Response } from '@angular/http';
 import { Observable } from 'rxjs';
 import { HttpService } from './http.interceptor';
 import 'rxjs/add/operator/map';
-
 import { cl_configs } from '../../config/cl-config';
-import { environment } from '../../../environments/environment';
 
 @Injectable()
 export class RDSService {
@@ -30,7 +28,7 @@ export class RDSService {
         let headers = new Headers({ });
         let options = new RequestOptions({ headers: headers });
 
-        return this.http.post('http://127.0.0.1:8080/users/add_users', data, options)
+        return this.http.post('https://user-dash-backend.herokuapp.com/users/add_users', data, options)
             .map((res: Response) => res.json())
             .catch((error: any) => {
                 return Observable.throw(error);
@@ -42,7 +40,7 @@ export class RDSService {
         let headers = new Headers({ });
         let options = new RequestOptions({ headers: headers });
 
-        return this.http.post('http://127.0.0.1:8080/users/get_users_len', {}, options)
+        return this.http.post('https://user-dash-backend.herokuapp.com/users/get_users_len', {}, options)
             .map((res: Response) => res.json())
             .catch((error: any) => {
                 return Observable.throw(error);
@@ -54,7 +52,7 @@ export class RDSService {
         let headers = new Headers({ });
         let options = new RequestOptions({ headers: headers });
 
-        return this.http.post('http://127.0.0.1:8080/users/load_users_by_index', data, options)
+        return this.http.post('https://user-dash-backend.herokuapp.com/users/load_users_by_index', data, options)
             .map((res: Response) => res.json())
             .catch((error: any) => {
                 return Observable.throw(error);
@@ -66,7 +64,7 @@ export class RDSService {
         let headers = new Headers({ });
         let options = new RequestOptions({ headers: headers });
 
-        return this.http.post('http://127.0.0.1:8080/users/delete_item', data, options)
+        return this.http.post('https://user-dash-backend.herokuapp.com/users/delete_item', data, options)
             .map((res: Response) => res.json())
             .catch((error: any) => {
                 return Observable.throw(error);
@@ -78,7 +76,7 @@ export class RDSService {
         let headers = new Headers({ });
         let options = new RequestOptions({ headers: headers });
 
-        return this.http.post('http://127.0.0.1:8080/all_users/add_users', data, options)
+        return this.http.post('https://user-dash-backend.herokuapp.com/all_users/add_users', data, options)
             .map((res: Response) => res.json())
             .catch((error: any) => {
                 return Observable.throw(error);

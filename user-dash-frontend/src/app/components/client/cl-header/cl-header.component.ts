@@ -7,7 +7,7 @@ import { cl_configs } from '../../../config/cl-config';
 
 import { TitleService } from '../../../services/client/cl-title.service';
 
-// import { environment } from '../../../../environments/environment';
+import { environment } from '../../../../environments/environment';
 
 declare var jquery: any;
 declare var $: any;

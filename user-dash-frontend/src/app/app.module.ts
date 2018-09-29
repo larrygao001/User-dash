@@ -53,10 +53,6 @@ import { RDListComponent } from './components/client/rd-list/rd-list.component';
     FormsModule,
     HttpModule,
     routing,
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyCEk3pZz3v81F7Cr28OQOajy1jW05gdJV8',
-      libraries: ['places']
-    }),
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {
