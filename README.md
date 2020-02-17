@@ -4,7 +4,7 @@ Visit the [preview page](https://user-dash.firebaseapp.com/) to interact with it
 
 # Technology Stack
 
-`AngularJS + Webpack + Node.js + MongoDB + Highcharts + Firebase + Heroku`
+`Angular 7 + Webpack + Node.js + MongoDB + Highcharts JS + Firebase + Heroku`
 
 # Main features
 
