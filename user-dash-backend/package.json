@@ -26,7 +26,7 @@
     "multipart": "^0.1.5",
     "node-cron": "^1.2.1",
     "request": "^2.87.0",
-    "socket.io": "^2.1.1",
+    "socket.io": "^2.4.0",
     "twilio": "^3.18.0",
     "websocket": "^1.0.26"
   },
